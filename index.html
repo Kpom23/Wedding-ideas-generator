@@ -4,6 +4,7 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="src/style.css" />
+  <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
   <title>AI Wedding Ideas Generator</title>
 </head>
 <body>
@@ -14,7 +15,7 @@
     </header>
 
 <main>
-    <form>
+    <form id="idea-generator-form">
         <input type="text" placeholder="Enter the concept of your wedding idea"
         autofocus
         required
@@ -23,22 +24,8 @@
         />
         <input type="submit" class="submit-button"/>
     </form>
-    <div class="idea">
+    <div class="idea" id="idea">
         <strong>The ideas will go here:</strong>
-        <br>
-        Set a budget
-        <br>
-        Draft a guest list 
-        <br>
-        Hire a wedding planner (if needed)
-        <br>
-        Choose potential date 
-        <br>
-        Research vendors 
-        <br>
-        Choose theme/color palette 
-        <br>
-        Choose wedding part
     </div>
    </main>
 
