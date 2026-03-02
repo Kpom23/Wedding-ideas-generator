@@ -6,18 +6,19 @@
   <link rel="stylesheet" href="src/style.css" />
   <script src="https://cdn.jsdelivr.net/npm/axios@1.13.2/dist/axios.min.js"></script>
   <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
-  <title>AI Wedding Ideas Generator</title>
+  <title>AI Travel tips ideas Generator</title>
 </head>
 <body>
 
   <div class="container">
     <header>
-       <h1> Wedding AI ideas Generator</h1>
+       <h1> AI Travel Tips Generator</h1>
     </header>
 
 <main>
+  <div class="form-container">
     <form id="idea-generator-form">
-        <input type="text" placeholder="Enter the concept of your wedding idea"
+        <input type="text" placeholder="Enter the city you want to travel to"
         autofocus
         required
         aoutocomplete="off"
@@ -26,8 +27,10 @@
         />
         <input type="submit" class="submit-button"/>
     </form>
-    <div class="idea" id="idea">
-        <strong>The ideas will go here:</strong>
+    <div class="hint">i.e: Bogota, Chicago, Toronto, Berlin</div>
+  </div>
+    <div class="idea hidden " id="idea">
+        <strong class="blink">The ideas will go here ⏳:</strong>
     </div>
    </main>
 

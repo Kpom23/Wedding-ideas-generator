@@ -45,10 +45,14 @@ Do not explain anything.
 `;
 
   let prompt = `Generate wedding ideas about ${instructionsInput.value}`;
-
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${encodeURIComponent(
     prompt
   )}&context=${encodeURIComponent(context)}&key=${apiKey}`;
+
+
+  let ideaElement = document.querySelector("#idea");
+  ideaElement.classList.remove("hidden");
+  ideaElement,innerHTML = `Generatin Tips for ${instructionsInput.value}`
 
   console.log("Generating idea...");
   console.log("Prompt:", prompt);
