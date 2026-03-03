@@ -35,8 +35,8 @@ function generateIdea(event) {
   let apiKey = "td8a113503b7a43603ob1a65510c6f17";
 
   let context = `
-You are a wedding expert.
-Generate exactly 4 short recommendations.
+You are a travel expert.
+Generate exactly 4 short recommendations and tips for different places around the world.
 Return ONLY valid HTML.
 Use only <p> tags.
 Do not use markdown.
@@ -44,7 +44,7 @@ Do not include triple backticks.
 Do not explain anything.
 `;
 
-  let prompt = `Generate wedding ideas about ${instructionsInput.value}`;
+  let prompt = `Generate travel ideas about ${instructionsInput.value}`;
   let apiURL = `https://api.shecodes.io/ai/v1/generate?prompt=${encodeURIComponent(
     prompt
   )}&context=${encodeURIComponent(context)}&key=${apiKey}`;

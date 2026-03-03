@@ -1,5 +1,5 @@
 body{
-    background-color: #f9f7fe;
+    background-color: #2A2154;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -21,7 +21,14 @@ h1{
     font-weight: 800;
     font-size: 36px;
     line-height: 1.5;
-    color: #272044;
+    color: white;
+}
+
+.main-text{
+    color:white;
+    font-size: 16px;
+    line-height: 1.8;
+    max-width: 800px;
 }
 
 .form-container{
@@ -29,7 +36,8 @@ h1{
     margin-bottom: 30px;
     border-radius: 10px;
     box-shadow: 0px 20px 60px rgb(65, 50, 100, 0.08);
-     padding: 15px 20px;
+    padding: 15px 20px;
+    color: black;
 }
 
 .hint{
@@ -51,7 +59,7 @@ form{
     font-size: 16px;
     border-radius: 50px;
     line-height: 20px;
-    color:#272044;
+    
 
 }
 
@@ -71,7 +79,7 @@ form{
     background-color: white;
     padding: 30px;
     line-height: 2;
-    border-left: 3px solid #885df1;
+    border-left: 4px solid #885df1;
     box-shadow: 0px 4px 30px 0px rgba(39,33,66,0.03);
  }
 
@@ -83,6 +91,7 @@ form{
     text-align: center;
     font-size: 14px;
     margin-top: 30px;
+    color: white;
 
  }
 
